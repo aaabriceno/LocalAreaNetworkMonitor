@@ -15,3 +15,7 @@ dist/
 # Editor
 .vscode/
 .idea/
+
+# Local project notes (not published)
+CLAUDE.md
+PROGRESS.md
