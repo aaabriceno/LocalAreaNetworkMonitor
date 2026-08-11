@@ -1,0 +1,4 @@
+scapy >= 2.5
+psutil >= 5.9
+sqlcipher3-binary >= 0.5
+pytest >= 8.0

@@ -1,0 +1,22 @@
+[project]
+name = "lanmon"
+version = "0.1.0"
+description = "Monitor de red local: descubrimiento, tracking y tráfico de dispositivos"
+requires-python = ">=3.10"
+dependencies = [
+    "scapy>=2.5",
+    "psutil>=5.9",
+    "sqlcipher3-binary>=0.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
