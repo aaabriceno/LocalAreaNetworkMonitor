@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Project data
+*.db
+*.pcap
+.env
+
+# Editor
+.vscode/
+.idea/
